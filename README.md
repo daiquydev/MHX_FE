@@ -12,6 +12,7 @@ yarn -v
 Nếu chưa cài, cài đặt Yarn bằng lệnh sau:
 
 npm install -g yarn
+
 2. Clone dự án
 Tải mã nguồn về máy:
 
@@ -19,10 +20,12 @@ git clone <repository-url>
 Di chuyển vào thư mục dự án:
 
 cd MXH_FE
+
 3. Cài đặt dependencies
 Chạy lệnh sau để cài đặt tất cả dependencies cần thiết:
 
 yarn install
+
 Lưu ý: Nếu gặp cảnh báo về package-lock.json, bạn có thể xóa file package-lock.json để tránh xung đột với Yarn.
 
 4. Chạy dự án trong môi trường phát triển
